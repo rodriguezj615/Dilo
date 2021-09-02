@@ -1,0 +1,22 @@
+.footer{
+    background-color: $color-tertiary;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    opacity: 1;
+    margin: 3.8rem 10.1rem 3.8rem;
+}
+
+.footer__text{
+    p{
+        margin: 0;
+    }
+    font-family: $font-primary;
+    font-size: 1.6rem;
+    text-align: left;
+    letter-spacing: 0.22px;
+    color: $color-quaternary;
+    opacity: 1;
+    margin: 3.8rem 0 3.7rem 10.1rem;
+}
