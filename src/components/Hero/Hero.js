@@ -5,7 +5,7 @@ const Hero = ()=>{
     return(
         <section className="section_home">
             <div>
-                <Carousel className="carousel">
+                <Carousel controls={false} className="carousel">
                     <Carousel.Item>
                         <img className="d-block w-100" src={CarouselImg} alt="First slide"/>
                         <Carousel.Caption>

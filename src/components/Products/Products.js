@@ -6,8 +6,9 @@ const Products = ()=>{
         <section id="products" className="section2__products">
             <div className="products__img">
             <Carousel indicators={false} interval={null}>
-                <Carousel.Item>
-                  <Carousel.Caption>
+                <Carousel.Item className="product__item1">
+                  <div>&nbsp;</div>
+                  <Carousel.Caption className="products__carousel--caption1">
                     <h3 className="section2__h3">Sed ut perspiciatis</h3>
                     <h2 className="section2__h2">Nemo Enim</h2>
                     <p className="section2__p">
@@ -15,8 +16,9 @@ const Products = ()=>{
                     </p>
                   </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                  <Carousel.Caption>
+                <Carousel.Item className="product__item2">
+                  <div>&nbsp;</div>
+                  <Carousel.Caption className="products__carousel--caption2">
                     <h3 className="section2__h3">At vero eos et accusam</h3>
                     <h2 className="section2__h2">Sanctus Dolor</h2>
                     <p className="section2__p">

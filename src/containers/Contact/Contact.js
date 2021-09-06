@@ -83,7 +83,7 @@ const Contact = () =>{
                                     !error ? ( 
                                         <Alert variant='success'> Enviado con exito! </Alert>
                                         ):(  
-                                            <Alert variant='danger'> Error en envio</Alert>
+                                            <Alert variant='danger'> Error en el envio</Alert>
                                             )
                                             ): null    
                                         }
