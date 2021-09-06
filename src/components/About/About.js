@@ -4,9 +4,8 @@ import React from 'react';
 
 const About = () => {
     return(
-        <section id="about" className="flex">
-            <div className="decoration__about">
-            </div>
+        <section id="about" className="flex about__section">
+            <div className="decoration__about">&nbsp;</div>
             <div className="about__container">
                 <div>
                     <p className="title__about1">We Help Businesses</p>
