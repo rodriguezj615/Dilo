@@ -8,7 +8,7 @@ const Footer = () => {
             <p>2020 © All rights reserved.</p>
         </div>
         <div className="footer__logo">
-            <img src={Logo}/>
+            <img src={Logo} alt="footer"/>
         </div>
         </section>
     )

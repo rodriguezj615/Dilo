@@ -6,7 +6,6 @@ const About = () => {
     return(
         <section id="about" className="flex">
             <div className="decoration__about">
-                
             </div>
             <div className="about__container">
                 <div>
@@ -15,16 +14,16 @@ const About = () => {
                 </div>
                 <div className="text__about">
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                        invidunt ut 
+                        invidunt ut <br/>
                         labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                        duo dolores et 
+                        duo dolores et <br/>
                         ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-                        amet. Lorem 
+                        amet. Lorem <br/>
                         ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut labore et 
+                        ut labore et <br/>
                         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                        et ea 
-                        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        et ea <br/>
+                        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br/>
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                         invidunt ut
                     </p>

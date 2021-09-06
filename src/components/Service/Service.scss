@@ -1,5 +1,42 @@
+.service__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__acordeon{
+    position: absolute;
+    margin-top: 14.4rem;
+    margin-left: 10.1rem;
+    width: 66.9rem;
+    opacity: 1;
+}
+.accordion {
+    background-color: $color-primary;
+    .accordion-header {
+        .accordion-button {
+            background-color: #f8f8f8;
+            font-family: $font-secondary;
+            position: relative;
+            padding: 20px;
+            color: #5F6368;
+            font-size: 1.6rem;
+            width: 100%;
+            text-align: left;
+            &::after {
+                background-image: url(../../assets/AccordeonButton.svg);
+            }
+        }
+    }
+    .accordion-body {
+        font-family: $font-secondary;
+        color: #5F6368;
+        padding: 40px;
+        font-size: 1.6rem;
+    }
+}
 .service__img{
     background: transparent url(../../assets/services-image.png) 0% 0% no-repeat padding-box;
+    justify-content: right;
     opacity: 1;
     width: 77rem;
     height: 76.8rem;
@@ -14,15 +51,4 @@
     opacity: 1; 
     left: 0px;
     align-items: center;
-}
-
-.service__acordeon{
-    position: absolute;
-    margin-top: 14.4rem;
-    margin-left: 10.1rem;
-    width: 66.9rem;
-    background: #F8F8F8 0% 0% no-repeat padding-box;
-    border: 1px solid #E3E3E3;
-    border-radius: 4px 4px 0px 0px;
-    opacity: 1;
 }

@@ -1,16 +1,74 @@
-.contact__title1{
-    font-family: $font-secondary;
-    font-size: 3.9rem;
-    color: $color-tertiary;
-    text-align: left;
-    letter-spacing: 0.55px;
+
+.contact__background{
+    background: linear-gradient(90deg, $color-quinary 75%, $color-quaternary 25%);
+    opacity: 1;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-.contact__title2{
-    font-family: $font-secondary;
-    font-size: 3.9rem;
+
+.contact__div1{
+    input, textarea{
+        position: relative;
+        font-family: $font-secondary;
+        font-size: 1.6rem;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #BEBEBE;
+        margin-bottom: 3.1rem;
+        background: none;
+    }
+    textarea{
+        height: 7.3rem;
+        width: 47.1rem;
+        resize: none;
+    }
+    input{
+        height: auto;
+        width: 47.1rem;
+    }
+    input:focus, textarea:focus{
+        background: none;
+        outline: none;
+    }
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    padding: 12rem 0 7.5rem 0;
     text-align: left;
-    letter-spacing: 0.55px;
-    color: $color-secondary;
-    margin: 0;
+    & .contact__title1{
+        font-family: $font-secondary;
+        font-size: 3.9rem;
+        color: $color-tertiary;
+        letter-spacing: 0.55px;
+    }
+    & .contact__title2{
+        font-family: $font-secondary;
+        font-size: 3.9rem;
+        letter-spacing: 0.55px;
+        color: $color-secondary;
+    }
 }
+
+.contact__img{
+    height: 40rem;
+    width: 59.4rem;
+}
+
+.contact__button{
+    width: 14.4rem;
+    background-color: $color-secondary;
+    color: $color-primary;
+    font-family: $font-primary;
+    font-size: 1.6rem;
+    margin-top: 3.9rem;
+    margin-bottom: 12.8rem;
+    border-radius: 2.5rem;
+    padding: 1.4rem 3.2rem;
+    border-style: none;
+}
+
+
