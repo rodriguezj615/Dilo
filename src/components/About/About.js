@@ -8,8 +8,8 @@ const About = () => {
             <div className="decoration__about">&nbsp;</div>
             <div className="about__container">
                 <div>
-                    <p className="title__about1">We Help Businesses</p>
-                    <p className="title__about2">Grow and Innovate</p>
+                    <span className="title__about1">We Help Businesses
+                    <p className="title__about2">Grow and Innovate</p></span>
                 </div>
                 <div className="text__about">
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor

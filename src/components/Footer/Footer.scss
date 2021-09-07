@@ -7,6 +7,9 @@
 .footer__logo{
     opacity: 1;
     margin: 3.8rem 10.1rem 3.8rem;
+    @include breakpoint("tablet"){
+        margin-right: 5rem;
+    }
 }
 
 .footer__text{
@@ -20,4 +23,7 @@
     color: $color-quaternary;
     opacity: 1;
     margin: 3.8rem 0 3.7rem 10.1rem;
+    @include breakpoint("tablet"){
+        margin: 0 5rem;
+    }
 }

@@ -12,3 +12,23 @@
     letter-spacing: 0.055rem;
     opacity: 1;
 }
+
+@mixin breakpoint($breakpoint) {
+    @if $breakpoint == "mobile" {
+        @media only screen and (max-width: 576px) {
+            @content;
+        }
+    } @else if $breakpoint == "tablet" {
+        @media only screen and (max-width: 768px) {
+            @content;
+        }
+    } @else if $breakpoint == "desktop" {
+        @media only screen and (max-width: 992px) {
+            @content;
+        }
+    } @else if $breakpoint == "lg-desktop" {
+        @media only screen and (min-width: 992px) {
+            @content;
+        }
+    }
+} 
