@@ -9,9 +9,14 @@
     margin-left: 10.1rem;
     width: 66.9rem;
     opacity: 1;
+    @include breakpoint("tablet"){
+        justify-content: left;
+        width: 70%;
+    }
 }
 .accordion {
     background-color: $color-primary;
+
     .accordion-header {
         .accordion-button {
             background-color: #f8f8f8;

@@ -8,6 +8,15 @@
     margin-left: 29.9rem;
     margin-top: 16.7rem;
     margin-bottom: 16.4rem;
+    @include breakpoint("desktop"){
+        justify-content: center;
+        margin-left: 19.9rem;
+    }
+    @include breakpoint("tablet"){
+        margin-left: 19.9rem;
+    }
+
+
 }
 
 .title__about1{
@@ -15,12 +24,30 @@
     margin-bottom: 0rem;
     color: $color-tertiary;
     line-height: 5rem;
+    @include breakpoint("desktop"){
+        font-size: 3.2rem;
+        line-height: 2rem;
+    }
+    @include breakpoint("tablet"){
+        font-size: 3rem;
+        line-height: 2rem;
+    }
 }
 
 .title__about2{
     @include title-about;
     margin-top: 0rem;
     color: $color-secondary;
+    @include breakpoint("desktop"){
+        margin-top: 1rem;
+        font-size: 3.2rem;
+        line-height: 2rem;
+    }
+    @include breakpoint("tablet"){
+        margin-top: 1rem;
+        font-size: 3rem;
+        line-height: 2rem;
+    }
 }
 
 .text__about{
@@ -30,6 +57,12 @@
     letter-spacing: 0.22px;
     color: $color-tertiary;
     opacity: 1;
+    @include breakpoint("desktop"){
+        font-size: 1.3rem;
+    }
+    @include breakpoint("tablet"){
+        font-size: 1rem;
+    }
 }
 
 .decoration__about{
@@ -40,31 +73,8 @@
     width: 3.2rem;
     align-items: center;
     margin: 14.4rem 0 14.4rem 0 ;
-}
+    @include breakpoint("tablet"){
+        width: 5%;
+    }
 
-@include breakpoint("desktop"){
-    span{
-        margin-left: 16rem;
-    }
-    p{
-        margin: 4.4rem 16rem 0;
-    }
-}
-@include breakpoint("tablet"){
-    span{
-        margin-left: 10rem;
-    }
-    p{
-        margin: 4.4rem 10rem 0;
-    }
-}
-@include breakpoint("mobile"){
-    span{
-        margin-left: 5rem;
-        font-size: 2.8rem;
-    }
-    p{
-        margin: 4rem 4rem 0 5rem;
-        font-size: 1.3rem
-    }
 }

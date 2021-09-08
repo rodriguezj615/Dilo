@@ -53,9 +53,24 @@ h3{
     }
 }
 
+.contact__form{
+    @include breakpoint("tablet"){
+        width: 100%;
+    }
+}
+
 .contact__img{
     height: 40rem;
     width: 59.4rem;
+    @include breakpoint("desktop"){
+        height: 40%;
+        width: 40%;
+    }
+    @include breakpoint("tablet"){
+        position: absolute;
+        height: 0%;
+        width: 0%;
+    }
 }
 
 .contact__button{

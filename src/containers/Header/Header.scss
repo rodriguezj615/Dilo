@@ -11,6 +11,18 @@
 
 .header__img{
     margin: 3.3rem 0 3.3rem 10rem;
+    @include breakpoint("desktop"){
+        margin: 2.3rem 0 2.3rem 2rem;
+        height: 2.5rem;
+    }
+    @include breakpoint("tablet"){
+        margin: 2.3rem 0 2.3rem 2rem;
+        height: 2.5rem;
+    }
+    @include breakpoint("mobile"){
+        margin: 2.3rem 0 2.3rem 2rem;
+        height: 1.5rem;
+    }
 }
 
 .navbar {
@@ -24,6 +36,10 @@ ul {
     margin: 0;
     padding: 0;
     margin-right: 5.5rem;
+    @include breakpoint("tablet"){
+        margin-right: 0;
+        padding-right: 5.5rem;
+    }
     & li {
         margin-top: 2.2rem;
         font-size: 1.6rem;
@@ -32,6 +48,11 @@ ul {
         text-decoration: none;
         color: $color-primary;
         margin-right: 5.7rem;
+        @include breakpoint("mobile"){
+            font-size: 1rem;
+            margin-right: 2.7rem;
+            margin-top: 1.7rem;
+        }
     }
     & a{
         color: $color-primary;

@@ -4,7 +4,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-
+    
     .products__img{
         background-image: url(../../assets/products-image.png);
         margin: 11.2rem 20rem 10.4rem 20rem;
@@ -15,6 +15,7 @@
         position: relative;
     }
     .carousel{
+    
         .carousel-item{
             margin-top: 24.8rem;
             margin-left: 49.5rem;

@@ -1,15 +1,31 @@
 .section_home{
+
     .carousel{
+        @include breakpoint("tablet"){
+            width: 100rem;
+        }
+        @include breakpoint("mobile"){
+            width: 57.5rem;
+        }
+    
         position: relative;
         img{
             background-repeat: no-repeat;
             width: 100%;
+
         }
         .carousel-indicators {
             position: absolute;
             margin-left: 10.1rem;
             right: auto;
-            bottom: 17.6rem;
+            bottom: 13.6rem;
+            @include breakpoint("desktop"){
+                bottom: 0;
+            }
+            @include breakpoint("tablet"){
+                bottom: 0;
+            }
+
             button{
                 margin: 5px 5px;
                 width: 1.2rem;
@@ -35,10 +51,6 @@
                 padding-top: 11px;
                 margin-top: 2rem;
             }
-            // Tengo q pisarle la clase
-            // .carousel-control-next-icon{
-            //     background-image: url("");
-            // }
         }
     }
 }
@@ -55,6 +67,14 @@
     font-family: $font-secondary;
     letter-spacing: 0.067rem;
     line-height: 5rem;
+    @include breakpoint("tablet"){
+        width: 60%;
+    }
+    @include breakpoint("mobile"){
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
 }
 .hero__p{
     font-size: 1.6rem;
@@ -63,6 +83,13 @@
     color: $color-primary;
     font-family: $font-primary;
     letter-spacing: 0.022rem;
+    @include breakpoint("tablet"){
+        width: 60%;
+    }
+    @include breakpoint("mobile"){
+        font-size: 1.2rem;
+        width: 40%;
+    }
 }
 
 .hero__button{
@@ -74,4 +101,13 @@
     border-radius: 2.5rem;
     padding: 1.4rem 3.2rem;
     border-style: none;
+    @include breakpoint("tablet"){
+        margin-left: 7rem;
+    }
+    @include breakpoint("mobile"){
+        margin-top: 1rem;
+        font-size: 1rem;
+        border-radius: 2.5rem;
+        padding: 1rem 2.3rem;
+    }
 }

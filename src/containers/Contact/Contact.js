@@ -51,7 +51,7 @@ const Contact = () =>{
                     <span className="contact__title2">We are hiring!</span>
                 </h3>
                 <div>
-                <Container>
+                <Container className="contact__form">
                     <Row>
                         <Col md={12} lg={5}>
                             <Form noValidate validated={validated} onSubmit={(e)=>handlerSubmit(e)}>
