@@ -2,7 +2,7 @@
 
     .carousel{
         @include breakpoint("tablet"){
-            width: 100rem;
+            width: 76.2rem;
         }
         @include breakpoint("mobile"){
             width: 57.5rem;
@@ -69,6 +69,8 @@
     line-height: 5rem;
     @include breakpoint("tablet"){
         width: 60%;
+        font-size: 3.3rem;
+        line-height: 2rem;
     }
     @include breakpoint("mobile"){
         font-size: 2rem;
@@ -85,6 +87,8 @@
     letter-spacing: 0.022rem;
     @include breakpoint("tablet"){
         width: 60%;
+        font-size: 1.2rem;
+        width: 40%;
     }
     @include breakpoint("mobile"){
         font-size: 1.2rem;
@@ -102,12 +106,16 @@
     padding: 1.4rem 3.2rem;
     border-style: none;
     @include breakpoint("tablet"){
-        margin-left: 7rem;
-    }
-    @include breakpoint("mobile"){
-        margin-top: 1rem;
+        margin-left: 0rem;
         font-size: 1rem;
         border-radius: 2.5rem;
         padding: 1rem 2.3rem;
+    }
+    @include breakpoint("mobile"){
+        margin-left: 7rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        border-radius: 2rem;
+        padding: 0.7rem 1.6rem;
     }
 }
