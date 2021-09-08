@@ -42,7 +42,7 @@ ul {
     }
     @include breakpoint("tablet"){
         margin: 0 0 0 9rem;
-        padding-left: 5.5rem;
+        margin-right: 3.5rem;
     }
     & li {
         margin-top: 2.2rem;

@@ -68,8 +68,7 @@
     letter-spacing: 0.067rem;
     line-height: 5rem;
     @include breakpoint("tablet"){
-        width: 60%;
-        font-size: 3.3rem;
+        font-size: 2.5rem;
         line-height: 2rem;
     }
     @include breakpoint("mobile"){
@@ -86,13 +85,10 @@
     font-family: $font-primary;
     letter-spacing: 0.022rem;
     @include breakpoint("tablet"){
-        width: 60%;
         font-size: 1.2rem;
-        width: 40%;
     }
     @include breakpoint("mobile"){
         font-size: 1.2rem;
-        width: 40%;
     }
 }
 
@@ -106,16 +102,16 @@
     padding: 1.4rem 3.2rem;
     border-style: none;
     @include breakpoint("tablet"){
+        margin-top: 1.9rem;
         margin-left: 0rem;
         font-size: 1rem;
         border-radius: 2.5rem;
         padding: 1rem 2.3rem;
     }
     @include breakpoint("mobile"){
-        margin-left: 7rem;
-        margin-top: 1rem;
-        font-size: 1rem;
-        border-radius: 2rem;
-        padding: 0.7rem 1.6rem;
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        border-radius: 1.6rem;
+        padding: 0.6rem 1.4rem;
     }
 }

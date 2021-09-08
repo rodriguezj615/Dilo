@@ -15,8 +15,9 @@
     @include breakpoint("tablet"){
         margin-left: 19.9rem;
     }
-
-
+    @include breakpoint("mobile"){
+        margin-left: 13.9rem;
+    }
 }
 
 .title__about1{
@@ -62,6 +63,10 @@
     }
     @include breakpoint("tablet"){
         font-size: 1rem;
+    }
+    @include breakpoint("mobile"){
+        font-size: 1rem;
+        width: 80%;
     }
 }
 

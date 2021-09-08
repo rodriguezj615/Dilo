@@ -13,9 +13,16 @@
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
+        @include breakpoint("tablet"){
+            height: 60%;
+            width: 60%;
+            margin: 0;
+        }
     }
     .carousel{
-    
+        @include breakpoint("tablet"){
+            size: 80%;
+        }
         .carousel-item{
             margin-top: 24.8rem;
             margin-left: 49.5rem;
