@@ -4,13 +4,6 @@
     justify-content: space-between;
 }
 
-.footer__logo{
-    opacity: 1;
-    margin: 3.8rem 10.1rem 3.8rem;
-    @include breakpoint("tablet"){
-        margin-right: 5rem;
-    }
-}
 
 .footer__text{
     p{
@@ -23,6 +16,22 @@
     color: $color-quaternary;
     opacity: 1;
     margin: 3.8rem 0 3.7rem 10.1rem;
+    @include breakpoint("tablet"){
+        margin-top: 4rem;
+        margin-left: 4rem;
+    }
+}
+.footer__text1{
+    p{
+        margin: 0;
+    }
+    font-family: $font-primary;
+    font-size: 1.6rem;
+    text-align: left;
+    letter-spacing: 0.22px;
+    color: $color-quaternary;
+    opacity: 1;
+    margin: 3.8rem 10.1rem 3.7rem 0;
     @include breakpoint("tablet"){
         margin-top: 4rem;
         margin-left: 4rem;

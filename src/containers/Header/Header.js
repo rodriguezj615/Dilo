@@ -1,5 +1,5 @@
 import React from 'react';
-import Toplogo from '../../assets/top-logo.svg'
+import Toplogo from '../../assets/Dilo.png'
 const Header = () =>{
     return(
         <section>
@@ -7,11 +7,11 @@ const Header = () =>{
                 <img className="header__img" src={Toplogo} alt="logo 25Watts" />
                 <nav className="navbar">
                     <ul>
-                        <li><a href="#inicio">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#products">Products</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#inicio">Redes</a></li>
+                        <li><a href="#about">Acerca</a></li>
+                        <li><a href="#products">App</a></li>
+                        <li><a href="#FAQ">FAQ</a></li>
+                        <li><a href="#contact">Contacto</a></li>
                     </ul>
                 </nav>
             </div>

@@ -1,0 +1,63 @@
+.service__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__acordeon{
+    position: absolute;
+    margin-top: 14.4rem;
+    margin-left: 10.1rem;
+    width: 66.9rem;
+    opacity: 1;
+    @include breakpoint("desktop"){
+        justify-content: left;
+        width: 70%;
+    }
+    @include breakpoint("tablet"){
+        justify-content: left;
+        width: 70%;
+    }
+}
+.accordion {
+    background-color: $color-primary;
+
+    .accordion-header {
+        .accordion-button {
+            background-color: #f8f8f8;
+            font-family: $font-secondary;
+            position: relative;
+            padding: 20px;
+            color: #5F6368;
+            font-size: 1.6rem;
+            width: 100%;
+            text-align: left;
+            &::after {
+                background-image: url(../../assets/AccordeonButton.svg);
+            }
+        }
+    }
+    .accordion-body {
+        font-family: $font-secondary;
+        color: #5F6368;
+        padding: 40px;
+        font-size: 1.6rem;
+    }
+}
+.service__img{
+    background: transparent url(../../assets/FAQImage.png) 0% 0% no-repeat padding-box;
+    justify-content: right;
+    opacity: 1;
+    width: 77rem;
+    height: 76.8rem;
+    left: 59.6rem;
+    background-size: cover;
+    margin: 0;
+}
+.service__div{
+    height: 76.8rem;
+    width: 59.6rem;
+    background: $color-primary 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    left: 0px;
+    align-items: center;
+}
