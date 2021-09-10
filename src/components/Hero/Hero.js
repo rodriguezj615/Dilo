@@ -12,7 +12,7 @@ const Hero = ()=>{
                         <Carousel.Caption>
                         <h1 className="hero__h1">Sed ut perspiciatis <br/>unde omnis iste natus</h1>
                         <p className="hero__p">Sed ut perspiciatis unde omnis iste natus<br/>error sit voluptatem accusantium doloremque.</p>
-                        <button className="hero__button">Info</button>
+                        <button className="hero__button">Read me</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -20,7 +20,7 @@ const Hero = ()=>{
                         <Carousel.Caption>
                         <h1 className="hero__h1">Sed ut perspiciatis <br/>unde omnis iste natus</h1>
                         <p className="hero__p">Sed ut perspiciatis unde omnis iste natus<br/>error sit voluptatem accusantium doloremque.</p>
-                        <button className="hero__button">Info</button>
+                        <button className="hero__button">Read me</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>

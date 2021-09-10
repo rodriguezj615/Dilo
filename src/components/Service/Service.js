@@ -1,9 +1,9 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
 
-const FAQ = ()=>{
+const Service = ()=>{
     return(
-        <section id="FAQ" className="service__flex">
+        <section id="service" className="service__flex">
             <div className="service__div">
                <div className="service__acordeon">
                   <Accordion defaultActiveKey="0" className="accordion">
@@ -52,4 +52,4 @@ const FAQ = ()=>{
     )
 }
 
-export default FAQ;
+export default Service;

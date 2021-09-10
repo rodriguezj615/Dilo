@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/footer-logo.svg'
+import Logo from '../../assets/footerlogo.svg'
 
 const Footer = () => {
     return (
@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="footer__text">
             <p>2021 © Todos los derechos reservados.</p>
         </div>
-        <div className="footer__text1">
-            <p>App creada por todos para todos.</p>
+        <div className="footer__img">
+            <img src={Logo} />
         </div>
         </section>
     )

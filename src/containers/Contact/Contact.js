@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {Container , Row, Col, Form, Alert} from "react-bootstrap";
 import { sendForm } from '../../axios';
-import ContactImg from '../../assets/ContactImg.png';
+import ContactImg from '../../assets/contactimage.png';
 
 
 const Contact = () =>{
@@ -88,7 +88,7 @@ const Contact = () =>{
                                             ): null    
                                         }
 
-                                <button className="contact__button" type="submit">Enviar</button>
+                                <button className="contact__button" type="submit">Submit</button>
                             </Form>
                             <br/>
                         </Col>
