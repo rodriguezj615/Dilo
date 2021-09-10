@@ -47,8 +47,8 @@ const Contact = () =>{
         <section id="contact" className="contact__background">
             <div className="contact__div1">
                 <h3>
-                    <span className="contact__title1">Mantenete al tanto</span>
-                    <span className="contact__title2">O contactate con nosotros!</span>
+                    <span className="contact__title1">Get in touch</span>
+                    <span className="contact__title2">We are hiring!</span>
                 </h3>
                 <div>
                 <Container className="contact__form">
@@ -58,7 +58,7 @@ const Contact = () =>{
                                 <Form.Group
                                 //controlId="exampleForm.ControlInput1"
                                 >
-                                    <Form.Control onChange={(e)=>handlerChange(e)} required type="text" placeholder="Nombre" name="name"/>
+                                    <Form.Control onChange={(e)=>handlerChange(e)} required type="text" placeholder="name" name="name"/>
                                 </Form.Group>
 
                                 <Form.Group
@@ -70,13 +70,13 @@ const Contact = () =>{
                                 <Form.Group
                                 //controlId="exampleForm.ControlInput3"
                                 >
-                                    <Form.Control onChange={(e)=>handlerChange(e)} type="phone" placeholder="Teléfono" name="phone"/>
+                                    <Form.Control onChange={(e)=>handlerChange(e)} type="phone" placeholder="Phone" name="phone"/>
                                 </Form.Group>
 
                                 <Form.Group 
                                 //controlId="exampleForm.ControlTextarea1"
                                 >
-                                    <Form.Control onChange={(e)=>handlerChange(e)} required as="textarea" rows={4} placeholder="Mensaje" name="message"/>
+                                    <Form.Control onChange={(e)=>handlerChange(e)} required as="textarea" rows={4} placeholder="Message" name="message"/>
                                 </Form.Group>
 
                                 {showAlert ? ( 
