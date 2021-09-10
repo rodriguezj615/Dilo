@@ -1,5 +1,5 @@
 import React from 'react';
-import Toplogo from '../../assets/Dilo.png'
+import Toplogo from '../../assets/headerlogo.svg'
 const Header = () =>{
     return(
         <section>
