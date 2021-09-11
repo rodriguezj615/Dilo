@@ -58,7 +58,7 @@ const Contact = () =>{
                                 <Form.Group
                                 //controlId="exampleForm.ControlInput1"
                                 >
-                                    <Form.Control onChange={(e)=>handlerChange(e)} required type="text" placeholder="name" name="name"/>
+                                    <Form.Control onChange={(e)=>handlerChange(e)} required type="text" placeholder="Name" name="name"/>
                                 </Form.Group>
 
                                 <Form.Group
