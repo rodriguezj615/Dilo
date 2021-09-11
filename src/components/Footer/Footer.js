@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <section className="footer flex">
         <div className="footer__text">
-            <p>2021 © Todos los derechos reservados.</p>
+            <p>2020 © All rights reserved.</p>
         </div>
         <div className="footer__img">
             <img src={Logo} />
