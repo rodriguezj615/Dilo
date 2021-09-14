@@ -8,7 +8,7 @@ const Footer = () => {
             <p>2020 © All rights reserved.</p>
         </div>
         <div className="footer__img">
-            <img src={Logo} />
+            <img src={Logo} alt="25 watts"/>
         </div>
         </section>
     )

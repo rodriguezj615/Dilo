@@ -1,4 +1,4 @@
-.section2__products{
+.products__section{
     background: linear-gradient(90deg, $color-quinary 75%, $color-quaternary 25%);
     opacity: 1;
     margin: 0;
@@ -78,7 +78,7 @@
                 margin-left: 5rem;
             }
             p{
-                font-size: 1.6rem;
+                font-size: 1.4rem;
                 letter-spacing: 0.022rem;
                 line-height: 2.1rem;
                 color: $color-primary;
