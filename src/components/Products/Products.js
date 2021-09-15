@@ -5,7 +5,7 @@ const Products = ()=>{
   return(
     <section id="products" className="products__section">
       <div className="products__img">
-        <Carousel indicators={false} interval={null} fade>
+        <Carousel indicators={false} interval={null}>
           <Carousel.Item className="product__item1">
             <div>&nbsp;</div>
             <Carousel.Caption className="products__carousel--caption1">
