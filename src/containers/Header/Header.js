@@ -1,6 +1,7 @@
 import React from 'react';
 import {DropdownButton, Dropdown} from 'react-bootstrap';
-import Toplogo from '../../assets/Dilo.png'
+import Toplogo from '../../assets/Dilo.png';
+
 const Header = () =>{
     return(
         <section>
@@ -22,7 +23,7 @@ const Header = () =>{
                     </ul>
                 </nav>
             </div>
-    </section>
+        </section>
     )
 }
 

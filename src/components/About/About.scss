@@ -20,7 +20,7 @@
     }
 }
 
-.title__about1{
+.about__title1{
     @include title-about;
     margin-bottom: 0rem;
     color: $color-tertiary;
@@ -35,7 +35,7 @@
     }
 }
 
-.title__about2{
+.about__title2{
     @include title-about;
     margin-top: 0rem;
     color: $color-secondary;
@@ -51,7 +51,7 @@
     }
 }
 
-.text__about{
+.about__text{
     margin-top: 4.2rem;
     font-family: $font-primary;
     font-size: 1.6rem;
@@ -70,7 +70,7 @@
     }
 }
 
-.decoration__about{
+.about__decoration{
     background: $color-secondary 0% 0% no-repeat padding-box;
     content: 100%;
     opacity: 1; 
