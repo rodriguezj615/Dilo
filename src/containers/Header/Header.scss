@@ -53,6 +53,28 @@ ul {
         text-decoration: none;
         color: $color-primary;
         margin-right: 5.7rem;
+        .btn-primary{
+            padding: 0;
+            font-size: 1.6rem;
+            font-family: $font-primary;
+            color: $color-primary;
+            background-color: transparent;
+            border-color: transparent;
+            &.btn-primary.dropdown-toggle{
+                background-color: transparent;
+                border-color: transparent;
+            }
+            &.btn-primary.dropdown-toggle:focus{
+                box-shadow:none;
+            }
+        }
+        .dropdown-item{
+            font-size: 1.5rem;
+            background-color: transparent;
+            border-color: transparent;
+            color: $color-primary;
+        }
+        
         @include breakpoint("mobile"){
             font-size: 1rem;
             margin-right: 2.7rem;

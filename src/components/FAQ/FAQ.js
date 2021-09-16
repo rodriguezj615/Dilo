@@ -8,39 +8,46 @@ const FAQ = ()=>{
                <div className="service__acordeon">
                   <Accordion defaultActiveKey="0" className="accordion">
                      <Accordion.Item eventKey="0">
-                        <Accordion.Header>Sed ut perspiciatis</Accordion.Header>
+                        <Accordion.Header>¿Quienes somos?</Accordion.Header>
                         <Accordion.Body>
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                           velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                           cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                           est laborum.
+                        Somos un grupo de estudiantes de la carrera de desarrollo de software del Terciario Urquiza en Rosario,
+                        interesados en ofrecer una alternativa de comunicación para quienes se encuentren con dificultades a la
+                        hora de expresar las necesidades mas importantes de su vida cotidiana.
                         </Accordion.Body>
                      </Accordion.Item>
                      <Accordion.Item eventKey="1">
-                        <Accordion.Header>Ut enim ad minima veniam</Accordion.Header>
+                        <Accordion.Header>¿Que es DILO! y cuál es el objetivo del proyecto?</Accordion.Header>
                         <Accordion.Body>
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                           velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                           cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                           est laborum.
+                        DILO! es un sistema de comunicacion aumentativo y alternativo, que permite la interpretación y/o 
+                        comunicacion a traves de una interfaz visual y auditiva, ayudando así a una mayor inclusión.
                         </Accordion.Body>
                      </Accordion.Item>
                      <Accordion.Item eventKey="2">
-                        <Accordion.Header>Sit amet, consectetur, adipisci</Accordion.Header>
+                        <Accordion.Header>¿A quién va dirigido el proyecto?</Accordion.Header>
                         <Accordion.Body>
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                           velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                           cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                           est laborum.
+                        El proyecto va dirigido a todas aquellas personas, tanto niños como adultos, 
+                        cuya comunicación se vea dificultada.
+                        </Accordion.Body>
+                     </Accordion.Item>
+                     <Accordion.Item eventKey="3">
+                        <Accordion.Header>¿Tiene algun costo?</Accordion.Header>
+                        <Accordion.Body>
+                           Ninguno, es gratuito para toda persona que pueda llegar a necesitarlo.
+                        </Accordion.Body>
+                     </Accordion.Item>
+                     <Accordion.Item eventKey="4">
+                        <Accordion.Header>¿Por dónde se puede acceder a DILO!?</Accordion.Header>
+                        <Accordion.Body>
+                        DILO! puede ser accedido tanto por cualquier dispositivo con conexion a internet a través de su
+                        página web, o bien por la app especializada que se encuentra disponible y que no requiere conexión
+                        a internet
+                        </Accordion.Body>
+                     </Accordion.Item>
+                     <Accordion.Item eventKey="5">
+                        <Accordion.Header>¿Es necesario registrarse?</Accordion.Header>
+                        <Accordion.Body>
+                        No. No es necesario registrarse, sin embargo permitimos la opcion de registro para que automaticamente
+                        muestre la interfaz de adultos o niños, personalizando la experiencia del usuario.
                         </Accordion.Body>
                      </Accordion.Item>
                   </Accordion>
