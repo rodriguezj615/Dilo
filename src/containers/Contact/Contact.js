@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {Container , Row, Col, Form, Alert} from "react-bootstrap";
 import { sendForm } from '../../axios';
-import ContactImg from '../../assets/contactimage.png';
+import ContactImg from '../../assets/ContactImg.png';
 
 
 const Contact = () =>{
