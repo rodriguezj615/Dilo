@@ -22,7 +22,7 @@ const Hero = ()=>{
                         <Carousel.Caption>
                             <h1 className="hero__h1">En pro de la inclusión<br/>y la comunicación</h1>
                             <p className="hero__p">Sed ut perspiciatis unde omnis iste natus<br/>error sit voluptatem accusantium doloremque.</p>
-                            <button className="hero__button">Read me</button>
+                            <button className="hero__button">Info</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -30,7 +30,7 @@ const Hero = ()=>{
                         <Carousel.Caption>
                             <h1 className="hero__h1">Posee un menú sencillo<br/>y representativo</h1>
                             <p className="hero__p">Sed ut perspiciatis unde omnis iste natus<br/>error sit voluptatem accusantium doloremque.</p>
-                            <button className="hero__button">Read me</button>
+                            <button className="hero__button">Info</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
