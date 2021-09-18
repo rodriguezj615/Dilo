@@ -12,15 +12,15 @@ const Hero = ()=>{
                     <Carousel.Item>
                         <img className="d-block w-100" src={CarouselImg1} alt="First slide"/>
                         <Carousel.Caption>
-                            <h1 className="hero__h1">Sed ut perspiciatis <br/>unde omnis iste natus</h1>
-                            <p className="hero__p">Sed ut perspiciatis unde omnis iste natus<br/>error sit voluptatem accusantium doloremque.</p>
-                            <button className="hero__button">Read me</button>
+                            <h1 className="hero__h1">Brindamos una solución <br/>al alcance de todos</h1>
+                            <p className="hero__p">Sin conexión alguna con o sin Internet<br/>en dispositivos nuevos y antigüos</p>
+                            <button className="hero__button">Info</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={CarouselImg2} alt="First slide"/>
                         <Carousel.Caption>
-                            <h1 className="hero__h1">Sed ut perspiciatis <br/>unde omnis iste natus</h1>
+                            <h1 className="hero__h1">En pro de la inclusión<br/>y la comunicación</h1>
                             <p className="hero__p">Sed ut perspiciatis unde omnis iste natus<br/>error sit voluptatem accusantium doloremque.</p>
                             <button className="hero__button">Read me</button>
                         </Carousel.Caption>
@@ -28,7 +28,7 @@ const Hero = ()=>{
                     <Carousel.Item>
                         <img className="d-block w-100" src={CarouselImg3} alt="First slide"/>
                         <Carousel.Caption>
-                            <h1 className="hero__h1">Sed ut perspiciatis <br/>unde omnis iste natus</h1>
+                            <h1 className="hero__h1">Posee un menú sencillo<br/>y representativo</h1>
                             <p className="hero__p">Sed ut perspiciatis unde omnis iste natus<br/>error sit voluptatem accusantium doloremque.</p>
                             <button className="hero__button">Read me</button>
                         </Carousel.Caption>
