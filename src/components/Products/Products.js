@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 const Products = ()=>{
   return(
-    <section id="products" className="products__section">
+    <section id="Productos" className="products__section">
       <div className="products__img">
         <Carousel indicators={false} interval={null}>
           <Carousel.Item className="product__item1">

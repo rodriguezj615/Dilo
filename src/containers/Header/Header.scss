@@ -87,6 +87,9 @@ ul {
         &:visited{
             color: $color-primary;
         }
+        &:hover{
+            color: $color-secondary;
+        }
     }
 }
 

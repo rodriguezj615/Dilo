@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return(
-        <section id="about" className="flex about__section">
+        <section id="Acerca" className="flex about__section">
             <div className="about__decoration">&nbsp;</div>
             <div className="about__container">
                 <div>

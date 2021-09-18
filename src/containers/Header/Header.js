@@ -9,10 +9,10 @@ const Header = () =>{
                 <img className="header__img" src={Toplogo} alt="logo 25Watts" />
                 <nav className="navbar">
                     <ul>
-                        <li><a href="#about">Acerca</a></li>
-                        <li><a href="#products">App</a></li>
+                        <li><a href="#Acerca">Acerca</a></li>
+                        <li><a href="#Productos">App</a></li>
                         <li><a href="#FAQ">FAQ</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#Contacto">Contacto</a></li>
                         <li>
                             <DropdownButton id="dropdown-basic-button" title="Redes">
                             <Dropdown.Item href="#/action-1">Instagram</Dropdown.Item>
